@@ -33,6 +33,62 @@
 
 
 
+        <!-- SERVICES -->
+
+        <section class="services-hero">
+            <div class="services-container">
+                <div class="section-titlee">
+                    <h2>Services</h2>
+                    <p>Typesetting industry lorem Ipsum is simply dummy text of the</p>
+                </div>
+
+
+                <div class="row align-items-start">
+                    <div class="col-md-4 col-service d-flex justify-content-center">
+                        <div class="service-card service-orange" style="width:100%; max-width:410px;">
+                            <div class="icon"><i class="fa-solid fa-mug-hot"></i></div>
+                            <h4>Original Coffee</h4>
+                            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea</p>
+                            <a href="#" class="read-more">READ MORE</a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4 col-service d-flex justify-content-center">
+                        <div class="service-card service-orange" style="width:100%; max-width:410px;">
+                            <div class="icon"><i class="fa-solid fa-mug-hot"></i></div>
+                            <h4>20 Coffee Flavors</h4>
+                            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea</p>
+                            <a href="#" class="read-more">READ MORE</a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4 col-service d-flex justify-content-center">
+                        <div class="service-card service-orange" style="width:100%; max-width:410px;">
+                            <div class="icon"><i class="fa-solid fa-mug-saucer"></i></div>
+                            <h4>Pleasant Abient</h4>
+                            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea</p>
+                            <a href="#" class="read-more">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <script>
+            const carousel = document.querySelector('#coffeeCarousel');
+            const bsCarousel = new bootstrap.Carousel(carousel);
+
+            document.getElementById('prevBtn').addEventListener('click', () => {
+                bsCarousel.prev();
+            });
+
+            document.getElementById('nextBtn').addEventListener('click', () => {
+                bsCarousel.next();
+            });
+        </script>
 
 
 
